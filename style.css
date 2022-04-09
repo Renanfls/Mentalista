@@ -1,0 +1,82 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  font-size: 21px;
+  min-height: 600px;
+  background: linear-gradient(0deg, transparent, #000000 300%),
+    url("https://images3.alphacoders.com/882/thumb-1920-882548.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 36px;
+}
+p {
+  font-size: 24px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #40c4ff;
+  margin-top: 16px;
+}
+
+.page-logo {
+  width: 10%;
+  display: block;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+  font-size: 18px;
+}
+
+#resultado {
+  color: #40c4ff;
+  text-align: center;
+  margin-top: 16px;
+  font-size: 20px;
+}
+
+.informacoes {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+#chances {
+  font-size: 18px;
+}
